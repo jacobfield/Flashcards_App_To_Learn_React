@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 export function Form({
   handleQuestionInput,
   handleAnswerInput,
@@ -27,7 +25,9 @@ export function Form({
         onChange={handleAnswerInput}
       />
       {/* storeNewFlashcard has no brackets, as it is being used as an event handler. The function will be invoked only when the button is clicked */}
-      <button onClick={storeNewFlashcard}>Add</button>
+      <button className="addButton" onClick={storeNewFlashcard}>
+        Add
+      </button>
     </form>
   );
 }

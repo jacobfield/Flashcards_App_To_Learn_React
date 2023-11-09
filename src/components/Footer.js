@@ -1,11 +1,10 @@
-import { useState } from "react";
 import logo192 from "../logo192.png";
 // Footer component for displaying footer content
 export function Footer() {
   return (
     <>
       <div className="footer">
-        Built with React
+        Built by Jacob 🚀 Built with React
         <img
           src={logo192}
           className="footerImage"
