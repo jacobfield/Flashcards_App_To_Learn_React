@@ -52,6 +52,7 @@
   margin: 1rem;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
+  margin: 1rem;
 }
 .addButton {
   background: whitesmoke;
@@ -81,10 +82,15 @@
   }
   .inputBox {
     width: 80%; /* Adjust the input width for smaller screens */
-    margin: 0.5rem auto; /* Center the input field */
+    margin: 1rem; /* Center the input field */
+    justify-content: center;
+    align-items: center;
   }
   .formClass {
     padding: 1rem;
+  }
+  .addButton {
+    margin: 1rem;
   }
 }
 
@@ -99,5 +105,8 @@
   }
   .formClass {
     padding: 1rem;
+  }
+  .addButton {
+    margin: 1rem;
   }
 }
