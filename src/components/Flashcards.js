@@ -1,5 +1,3 @@
-import { useState } from "react";
-import { v4 as uuid } from "uuid";
 import { Flashcard } from "./Flashcard.js";
 
 // Flashcards component for displaying flashcard items
