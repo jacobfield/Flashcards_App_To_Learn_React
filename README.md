@@ -1,3 +1,8 @@
+- This is my React Flashcard App, built with React, to help me learn React.
+- To find the app, go to src/App.js
+- then npm run start in the terminal
+- Hope you enjoy!
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
