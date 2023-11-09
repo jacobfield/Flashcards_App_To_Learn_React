@@ -46,8 +46,6 @@
 }
 
 .inputBox {
-  width: 80%; /* Adjust the input width for smaller screens */
-  margin: 0.5rem auto; /* Center the input field */
   border-radius: 5px;
   padding: 10px;
   background-color: #333948;
@@ -81,11 +79,25 @@
   .flashcardsAll {
     grid-template-columns: 1fr 1fr;
   }
+  .inputBox {
+    width: 80%; /* Adjust the input width for smaller screens */
+    margin: 0.5rem auto; /* Center the input field */
+  }
+  .formClass {
+    padding: 1rem;
+  }
 }
 
 /* reactive media query for screens smaller than 480px (phones) */
-@media (max-width: 480px) {
+@media (max-width: 515px) {
   .flashcardsAll {
     grid-template-columns: 1fr;
+  }
+  .inputBox {
+    width: 80%; /* Adjust the input width for smaller screens */
+    margin: 0.5rem auto; /* Center the input field */
+  }
+  .formClass {
+    padding: 1rem;
   }
 }
