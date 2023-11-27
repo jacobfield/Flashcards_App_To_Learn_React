@@ -21,16 +21,11 @@ export function Flashcards({ flashcardData, setData }) {
   return (
     // Creating a section element with the class "flashcardsAll"
     <section className="flashcardsAll">
-      {/* // Iterating through each flashcard object in the flashcardData array. Returning a flashcard component for each flashcard object*/}
       {flashcardData.map((flashcardData) => {
         return (
           <Flashcard
-            // pass the important components down to the individual flashcard as props, including the deleteFlashcard function as onDelete
-            // Assigning a unique key to each Flashcard component for efficient rendering
             key={flashcardData.id}
-            // Passing the current flashcard object as a prop named "flashcardObject"
             flashcardObject={flashcardData}
-            // Passing the deleteFlashcard function as a prop named "onDelete"
             onDelete={deleteFlashcard}
           />
         );

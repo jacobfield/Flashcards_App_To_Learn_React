@@ -4,7 +4,7 @@ export function Footer() {
   return (
     <>
       <div className="footer">
-        🚀 Built with React
+        Built by Jacob 🚀 Built with React
         <img
           src={logo192}
           className="footerImage"
